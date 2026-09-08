@@ -172,8 +172,8 @@ def demonstrate_variable_scope():
         # Local variable declaration within function1
         local_var1 = "I am local to function1"
         
+        print("Inside function1 - global_var:", global_var)
         print("Inside function1 - local_var1:", local_var1)
-        
 
     function1()  # Call function1 to demonstrate variable scope
     print("Inside function1 - local_var1:", local_var1)  
