@@ -1,0 +1,55 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_demonstrate_integer",
+          "label": "Verify demonstrate_integer returns an integer",
+          "description": "Checks that demonstrate_integer executes and returns a value of type int."
+        },
+        {
+          "methodName": "test_demonstrate_float",
+          "label": "Verify demonstrate_float outputs a float",
+          "description": "Captures stdout and verifies that the printed output can be converted to a float."
+        },
+        {
+          "methodName": "test_demonstrate_boolean",
+          "label": "Verify demonstrate_boolean outputs a boolean",
+          "description": "Captures stdout and checks whether the printed output represents a boolean value."
+        },
+        {
+          "methodName": "test_demonstrate_string",
+          "label": "Verify demonstrate_string returns a string",
+          "description": "Ensures that demonstrate_string returns a string object."
+        },
+        {
+          "methodName": "test_demonstrate_tuple",
+          "label": "Verify demonstrate_tuple returns a tuple",
+          "description": "Checks that demonstrate_tuple returns a tuple structure."
+        },
+        {
+          "methodName": "test_demonstrate_set",
+          "label": "Verify demonstrate_set returns a set",
+          "description": "Checks that demonstrate_set returns a set and not another collection type."
+        },
+        {
+          "methodName": "test_demonstrate_dictionary",
+          "label": "Verify demonstrate_dictionary returns a dictionary",
+          "description": "Ensures demonstrate_dictionary returns a dictionary object."
+        },
+        {
+          "methodName": "test_demonstrate_create_areas_list",
+          "label": "Verify list of predefined area values",
+          "description": "Confirms demonstrate_create_areas_list returns a predefined list of integers and verifies each element is an integer."
+        },
+        {
+          "methodName": "test_demonstrate_variable_scope",
+          "label": "Verify demonstrate_variable_scope returns None",
+          "description": "Ensures the function demonstrate_variable_scope executes and returns None as expected."
+        }
+      ]
+    }
+  ]
+}
